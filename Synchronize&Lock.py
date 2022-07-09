@@ -40,7 +40,7 @@ threadLock = threading.Lock()
 
 thread1 = my_thread(1, "Payment", 5)
 thread2 = my_thread2(2, "Sending Email", 10)
-thread3 = my_thread2(2, "Loading Page", 3)
+thread3 = my_thread2(3, "Loading Page", 3)
 
 thread1.start()
 thread2.start()
